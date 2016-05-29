@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250B1EC61CFAB72C00FD13EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B1EC51CFAB72C00FD13EC /* AppDelegate.swift */; };
+		250B1EC81CFAB72C00FD13EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B1EC71CFAB72C00FD13EC /* ViewController.swift */; };
+		250B1ECB1CFAB72C00FD13EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250B1EC91CFAB72C00FD13EC /* Main.storyboard */; };
+		250B1ECE1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 250B1ECC1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld */; };
+		250B1ED01CFAB72C00FD13EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250B1ECF1CFAB72C00FD13EC /* Assets.xcassets */; };
+		250B1ED31CFAB72C00FD13EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250B1ED11CFAB72C00FD13EC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		250B1EC21CFAB72C00FD13EC /* CatchTheBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		250B1EC51CFAB72C00FD13EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		250B1EC71CFAB72C00FD13EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		250B1ECA1CFAB72C00FD13EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		250B1ECD1CFAB72C00FD13EC /* CatchTheBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatchTheBus.xcdatamodel; sourceTree = "<group>"; };
+		250B1ECF1CFAB72C00FD13EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		250B1ED21CFAB72C00FD13EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		250B1ED41CFAB72C00FD13EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250B1EBF1CFAB72C00FD13EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250B1EB91CFAB72C00FD13EC = {
+			isa = PBXGroup;
+			children = (
+				250B1EC41CFAB72C00FD13EC /* CatchTheBus */,
+				250B1EC31CFAB72C00FD13EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		250B1EC31CFAB72C00FD13EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250B1EC21CFAB72C00FD13EC /* CatchTheBus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250B1EC41CFAB72C00FD13EC /* CatchTheBus */ = {
+			isa = PBXGroup;
+			children = (
+				250B1EC51CFAB72C00FD13EC /* AppDelegate.swift */,
+				250B1EC71CFAB72C00FD13EC /* ViewController.swift */,
+				250B1EC91CFAB72C00FD13EC /* Main.storyboard */,
+				250B1ECF1CFAB72C00FD13EC /* Assets.xcassets */,
+				250B1ED11CFAB72C00FD13EC /* LaunchScreen.storyboard */,
+				250B1ED41CFAB72C00FD13EC /* Info.plist */,
+				250B1ECC1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld */,
+			);
+			path = CatchTheBus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250B1EC11CFAB72C00FD13EC /* CatchTheBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250B1ED71CFAB72C00FD13EC /* Build configuration list for PBXNativeTarget "CatchTheBus" */;
+			buildPhases = (
+				250B1EBE1CFAB72C00FD13EC /* Sources */,
+				250B1EBF1CFAB72C00FD13EC /* Frameworks */,
+				250B1EC01CFAB72C00FD13EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheBus;
+			productName = CatchTheBus;
+			productReference = 250B1EC21CFAB72C00FD13EC /* CatchTheBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250B1EBA1CFAB72C00FD13EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mika Majakorpi";
+				TargetAttributes = {
+					250B1EC11CFAB72C00FD13EC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J5JP24T3VQ;
+					};
+				};
+			};
+			buildConfigurationList = 250B1EBD1CFAB72C00FD13EC /* Build configuration list for PBXProject "CatchTheBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 250B1EB91CFAB72C00FD13EC;
+			productRefGroup = 250B1EC31CFAB72C00FD13EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250B1EC11CFAB72C00FD13EC /* CatchTheBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250B1EC01CFAB72C00FD13EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250B1ED31CFAB72C00FD13EC /* LaunchScreen.storyboard in Resources */,
+				250B1ED01CFAB72C00FD13EC /* Assets.xcassets in Resources */,
+				250B1ECB1CFAB72C00FD13EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250B1EBE1CFAB72C00FD13EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250B1EC81CFAB72C00FD13EC /* ViewController.swift in Sources */,
+				250B1EC61CFAB72C00FD13EC /* AppDelegate.swift in Sources */,
+				250B1ECE1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		250B1EC91CFAB72C00FD13EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250B1ECA1CFAB72C00FD13EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		250B1ED11CFAB72C00FD13EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250B1ED21CFAB72C00FD13EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		250B1ED51CFAB72C00FD13EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		250B1ED61CFAB72C00FD13EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		250B1ED81CFAB72C00FD13EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatchTheBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majakorpi.CatchTheBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		250B1ED91CFAB72C00FD13EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatchTheBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majakorpi.CatchTheBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250B1EBD1CFAB72C00FD13EC /* Build configuration list for PBXProject "CatchTheBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250B1ED51CFAB72C00FD13EC /* Debug */,
+				250B1ED61CFAB72C00FD13EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250B1ED71CFAB72C00FD13EC /* Build configuration list for PBXNativeTarget "CatchTheBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250B1ED81CFAB72C00FD13EC /* Debug */,
+				250B1ED91CFAB72C00FD13EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		250B1ECC1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				250B1ECD1CFAB72C00FD13EC /* CatchTheBus.xcdatamodel */,
+			);
+			currentVersion = 250B1ECD1CFAB72C00FD13EC /* CatchTheBus.xcdatamodel */;
+			path = CatchTheBus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 250B1EBA1CFAB72C00FD13EC /* Project object */;
+}
