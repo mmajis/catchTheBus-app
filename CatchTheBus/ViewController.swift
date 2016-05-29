@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(animated: Bool) {
+        self.catchCheck()
         let configuration = NSURLSessionConfiguration .defaultSessionConfiguration()
         let session = NSURLSession(configuration: configuration)
         
@@ -146,6 +147,13 @@ class ViewController: UIViewController {
         let newDate = cal.startOfDayForDate(date)
         return newDate.dateByAddingTimeInterval(NSTimeInterval(seconds))
     }
+    
+    func nowAsSecondsAfterMidnight() -> Int {
+        let now = NSDate()
+        let cal = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
+        let midnight = cal.startOfDayForDate(now)
+        return Int(round(-midnight.timeIntervalSinceNow))
+    }
 
     func secondsToHoursMinutesSeconds (seconds : Int) -> (Int, Int, Int) {
         return (seconds / 3600, (seconds % 3600) / 60, (seconds % 3600) % 60)
@@ -153,7 +161,7 @@ class ViewController: UIViewController {
     
     @IBAction func pauseResumeCatchCheck(sender: AnyObject) {
         if isPausedCatchCheck {
-            catchCheckTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(ViewController.catchCheck), userInfo: nil, repeats: true)
+            catchCheckTimer = NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: #selector(ViewController.catchCheck), userInfo: nil, repeats: true)
             isPausedCatchCheck = false
         } else {
             catchCheckTimer.invalidate()
@@ -217,9 +225,14 @@ class ViewController: UIViewController {
                             let leaveDate = self.secondsAfterMidnightAsNSDate(leave)
                             let leaveTime = formatter.stringFromDate(leaveDate)
                             let onTimeStr = self.getOnTimeString(arrival, scheduledArrival: scheduledArrival)
-                            
-                            self.mainLabel.text = "jooo\njoo\njoooo"
-                            self.mainLabel.font = self.mainLabel.font.fontWithSize(40)
+                            let secondsLeft = Int(round(arrivalDate.timeIntervalSinceNow))
+                            let leftDate = self.secondsAfterMidnightAsNSDate(secondsLeft)
+                            let msFormatter = NSDateFormatter()
+                            msFormatter.dateFormat = "mm:ss"
+                            let leftString = msFormatter.stringFromDate(leftDate)
+                            self.mainLabel.center = self.view.center
+                            self.mainLabel.text = "Time left:\n\(leftString)"
+                            self.mainLabel.font = self.mainLabel.font.fontWithSize(30)
                             self.mainLabel.sizeToFit()
                             
                         } else {
