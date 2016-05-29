@@ -13,6 +13,8 @@
 		250B1ECE1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 250B1ECC1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld */; };
 		250B1ED01CFAB72C00FD13EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250B1ECF1CFAB72C00FD13EC /* Assets.xcassets */; };
 		250B1ED31CFAB72C00FD13EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250B1ED11CFAB72C00FD13EC /* LaunchScreen.storyboard */; };
+		259A76091CFAE3A00073EF5B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A76081CFAE3A00073EF5B /* SwiftyJSON.swift */; };
+		259A760B1CFAE3E30073EF5B /* RestCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A760A1CFAE3E30073EF5B /* RestCalls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		250B1ECF1CFAB72C00FD13EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		250B1ED21CFAB72C00FD13EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		250B1ED41CFAB72C00FD13EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259A76081CFAE3A00073EF5B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		259A760A1CFAE3E30073EF5B /* RestCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestCalls.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				250B1ED11CFAB72C00FD13EC /* LaunchScreen.storyboard */,
 				250B1ED41CFAB72C00FD13EC /* Info.plist */,
 				250B1ECC1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld */,
+				259A76081CFAE3A00073EF5B /* SwiftyJSON.swift */,
+				259A760A1CFAE3E30073EF5B /* RestCalls.swift */,
 			);
 			path = CatchTheBus;
 			sourceTree = "<group>";
@@ -100,6 +106,11 @@
 					250B1EC11CFAB72C00FD13EC = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = J5JP24T3VQ;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -142,6 +153,8 @@
 				250B1EC81CFAB72C00FD13EC /* ViewController.swift in Sources */,
 				250B1EC61CFAB72C00FD13EC /* AppDelegate.swift in Sources */,
 				250B1ECE1CFAB72C00FD13EC /* CatchTheBus.xcdatamodeld in Sources */,
+				259A760B1CFAE3E30073EF5B /* RestCalls.swift in Sources */,
+				259A76091CFAE3A00073EF5B /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +304,7 @@
 				250B1ED91CFAB72C00FD13EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
