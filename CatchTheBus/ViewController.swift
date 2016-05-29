@@ -225,7 +225,7 @@ class ViewController: UIViewController {
                             let leaveDate = self.secondsAfterMidnightAsNSDate(leave)
                             let leaveTime = formatter.stringFromDate(leaveDate)
                             let onTimeStr = self.getOnTimeString(arrival, scheduledArrival: scheduledArrival)
-                            let secondsLeft = Int(round(arrivalDate.timeIntervalSinceNow))
+                            let secondsLeft = Int(round(arrivalDate.timeIntervalSinceNow)) - walkTime - leadTime
                             let leftDate = self.secondsAfterMidnightAsNSDate(secondsLeft)
                             let msFormatter = NSDateFormatter()
                             msFormatter.dateFormat = "mm:ss"
